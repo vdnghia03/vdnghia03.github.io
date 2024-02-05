@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- Css Slider -->
+    <link rel="stylesheet" href="./assets/css/slider/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/slider/owl.theme.default.min.css">
+    <!-- Css Slider -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>CHOI_CO_GIN</title>
+</head>
+<body>
+<!-- Loader page -->
+<div class="loader">
+    <i class="fal fa-spinner loader-icon"></i>
+</div>
+<!-- Start: Header -->
+<div id="header">
+    <div class="container h-100">
+        <div class="header__container">
+<!-- Start: Logo And Search -->
+                <div class="header__logo">
+                    <a href="#">
+                        
+                        <svg class="header__logo-pc-svg" id="logo-pc" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                            <path d="M20 80 L80 80 L20 20 L80 20" stroke="black" stroke-width="10" fill="none"/>
+                          </svg>
+                        
+                        <svg class="header__logo-mobile-svg" id="logo-mobile" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                            <path d="M20 80 L80 80 L20 20 L80 20" stroke="black" stroke-width="10" fill="none"/>
+                          </svg>
+                    </a>
+                </div>
+                <div class="header__search">
+                    <div class="header__search-inputs">
+                        <span class="fad fa-search header__search-icon"></span>
+                        <input type="text" placeholder="Tìm kiếm" class="header__search-input">
+                    </div>
+                    <div class="header__search-options">
+                        <div class="header__search-options-item">
+                            <i class="far fa-calendar-check  header__search-options-icon"></i>Ngày
+                        </div>
+                        <div class="header__search-options-item">
+                            <i class="fas fa-user  header__search-options-icon"></i>Khách hàng
+                        </div>
+                    </div>
+                    <div class="header__search-submit">
+                        <button class="header__search-submit-btn">
+                            <span class="fas fa-search  header__search-submit-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="header__search-suggest">
+                        <h5 class="search__suggest-heading">CÁC LOẠI CHỔI</h5>
+                        <ul class="search__suggest-list">
+                            <li class="search__suggest-item">
+                                <div class="search__suggest-thumbnail">
+                                    <img src="./assets/imgs//suggest/choi1.png" alt="" class="search__suggest-thumbnail-img">
+                                </div>
+                                <div class="search__suggest-content">
+                                    <p class="search__suggest-title">CHỔI 18</p>
+                                    <small>Giá: 18k</small>
+                                </div>
+                            </li>
+                            <li class="search__suggest-item active">
+                                <div class="search__suggest-thumbnail">
+                                    <img src="./assets/imgs//suggest/choi2.png" alt="" class="search__suggest-thumbnail-img">
+                                </div>
+                                <div class="search__suggest-content">
+                                    <p class="search__suggest-title">CHỔI 20</p>
+                                    <small>Giá: 20k</small>
+                                </div>
+                            </li>
+                            <li class="search__suggest-item">
+                                <div class="search__suggest-thumbnail">
+                                    <img src="./assets/imgs//suggest/choi3.png" alt="" class="search__suggest-thumbnail-img">
+                                </div>
+                                <div class="search__suggest-content">
+                                    <p class="search__suggest-title">CHỔI 22</p>
+                                    <small>Giá: 22k</small>
+                                </div>
+                            </li>
+                            <li class="search__suggest-item">
+                                <div class="search__suggest-thumbnail">
+                                    <img src="./assets/imgs//suggest/choi4.png" alt="" class="search__suggest-thumbnail-img">
+                                </div>
+                                <div class="search__suggest-content">
+                                    <p class="search__suggest-title">CHỔI 25</p>
+                                    <small>Giá: 25k</small>
+                                </div>
+                            </li>
+                            <li class="search__suggest-item">
+                                <div class="search__suggest-thumbnail">
+                                    <img src="./assets/imgs//suggest/choi5.png" alt="" class="search__suggest-thumbnail-img">
+                                </div>
+                                <div class="search__suggest-content">
+                                    <p class="search__suggest-title">CHỔI 30</p>
+                                    <small>Giá: 30k</small>
+                                </div>
+                            </li>
+                            <li class="search__suggest-item">
+                                <div class="search__suggest-thumbnail">
+                                    <img src="./assets/imgs//suggest/choi7.png" alt="" class="search__suggest-thumbnail-img">
+                                </div>
+                                <div class="search__suggest-content">
+                                    <p class="search__suggest-title">CHỔI ĐẶC</p>
+                                    <small>Giá: Dao động</small>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+<!-- End: Logo And Search -->
+<!-- Start: Nav PC -->
+                <div class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="" class="header__nav-link">Guide</a></li>
+                        <li class="header__nav-item"><a href="" class="header__nav-link host">Host</a></li>
+                        <li class="header__nav-item"><a href="" class="header__nav-link">Đăng ký</a></li>
+                        <li class="header__nav-item"><a href="" class="header__nav-link">Đăng nhập</a></li>
+                        <li class="header__nav-item">
+                            <div class="header__nav-language">
+                                <img src="./assets/imgs/vi.svg" alt="VietNamese" class="header__nav-language-img">
+                                <p class="header__nav-language-name">VND</p>
+                                <span class="fas fa-caret-down"></span>
+                            </div>
+                            <div class="change__languages">
+                                <div class="change__languages-container">
+                                    <ul class="change__languages-list">
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <img src="./assets/imgs/vi.svg" alt="" class="header__nav-language-img">
+                                                <p class="change__languages-vi-name">Tiếng Việt</p>
+                                                <span class="far fa-check"></span>
+                                            </div>
+                                        </li>
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <img src="./assets/imgs/en.svg" alt="" class="header__nav-language-img">
+                                                <p class="change__languages-vi-name">English</p>
+                                            </div>
+                                        </li>
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <img src="./assets/imgs/ko.svg" alt="" class="header__nav-language-img">
+                                                <p class="change__languages-vi-name">Korean</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    
+                                    <ul class="change__languages-list space-line">
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <strong>VND</strong>
+                                                <p class="change__languages-vi-name">Tiếng Việt</p>
+                                                <span class="far fa-check"></span>
+                                            </div>
+                                        </li>
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <strong>USD</strong>
+                                                <p class="change__languages-vi-name">United States Dollar</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+<!-- End: Nav PC -->
+                <div class="nav__mobile-btn">
+                    <button class="nav__mobile--show-btn">
+                        <i class="fal fa-align-justify  nav__mobile--show-icon"></i>
+                    </button>
+                </div>
+<!-- Start: Nav Mobile -->
+                <span class="nav_overlay"></span>
+                <div class="nav__mobile">
+                    <div class="nav__mobile-close">
+                        <span class="fal fa-times nav__mobile-close-icon"></span>
+                    </div>
+                    <ul class="nav__mobile-list">
+                        <li class="nav__mobile-item"><a href="" class="nav__mobile-link">Guide</a></li>
+                        <li class="nav__mobile-item"><a href="" class="nav__mobile-link nav__mobile-link-host">Host</a></li>
+                        <li class="nav__mobile-item"><a href="" class="nav__mobile-link">Đăng ký</a></li>
+                        <li class="nav__mobile-item"><a href="" class="nav__mobile-link">Đăng nhập</a></li>
+                        <li class="nav__mobile-item">
+                            <div class="nav__mobile-language">
+                                <img src="./assets/imgs/vi.svg" alt="VietNamese" class="nav__mobile-language-img">
+                                <p class="nav__mobile-language-name">VND</p>
+                                <span class="fas fa-caret-down nav__mobile-language-icon"></span>
+
+                                <div class="mobile__language">
+                                    <ul class="mobile__language-list">
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <img src="./assets/imgs/vi.svg" alt="" class="header__nav-language-img">
+                                                <p class="change__languages-vi-name">Tiếng Việt</p>
+                                                <span class="far fa-check"></span>
+                                            </div>
+                                        </li>
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <img src="./assets/imgs/en.svg" alt="" class="header__nav-language-img">
+                                                <p class="change__languages-vi-name">English</p>
+                                            </div>
+                                        </li>
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <img src="./assets/imgs/ko.svg" alt="" class="header__nav-language-img">
+                                                <p class="change__languages-vi-name">Korean</p>
+                                            </div>
+                                        </li>
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <strong>VND</strong>
+                                                <p class="change__languages-vi-name">Việt Nam Đồng</p>
+                                                <span class="far fa-check"></span>
+                                            </div>
+                                        </li>
+                                        <li class="change__languages-item">
+                                            <div class="change__languages-vi">
+                                                <strong>USD</strong>
+                                                <p class="change__languages-vi-name">United States Dollar</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+<!-- End: Nav Mobile -->
+        </div>
+    </div>
+</div>
+<!-- End: Header -->
+
+<!-- Start Slider -->
+<div id="slider"> 
+    <div class="container">
+        <div class="owl-carousel owl-theme" id="banner-slider">
+            <div class="item">
+                <a href=""><img src="./assets/imgs/slider1.png"></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="./assets/imgs/slider2.png"></a>
+            </div>
+        </div>
+        <!-- <div id="owl-banner" class="owl-carousel owl-theme">
+            <div class="item">
+                <a href=""><img src="./assets/imgs/slider1.png"></a>
+            </div>
+            <div class="item">
+                <a href=""><img src="./assets/imgs/slider2.png"></a>
+            </div>
+        </div>  -->
+    </div>
+</div>
+<!-- End Slider -->
+
+<!-- Start Main -->
+<div id="main">
+    <div class="container">
+<!-- Start: Welcome -->
+        <div class="content__welcome">
+            <h3 class="content__welcome-heading">Chào mừng đến với Thế Giới Chổi!</h3>
+            <p class="content-description">
+                Đặt trước chổi với thế giới chổi - CO GIN <br>
+                <a href="" class="content__welcome-link">Đăng nhập</a> hoặc <a href="" class="content__welcome-link">Đăng ký</a> để trải nghiệm !
+            </p>
+        </div>
+<!--End: Welcome  -->
+
+<!-- Start: Location -->
+        <div class="content__container">
+            <div class="content__location">
+                <p class="content-title">Các thành phần nổi bật</p>
+                <p class="content-description">Cùng chổi co gin mở ra không gian đẹp nơi căn phòng</p>
+                <!-- Start: Content Slider -->
+                <div class="content__slider">
+                    <div class="owl-carousel" id="content-slider">
+                        <div class="item content__slider-item">
+                            <a href=""><img src="./assets/imgs/location/location1.png" alt="" class="content__slider-img">
+                                <div class="content__slider-name">
+                                    <h3 class="content__slider-heading">Thành phần</h3>
+                                    <p class="content__slider-description">Đót</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item content__slider-item">
+                            <a href=""><img src="./assets/imgs/location/location2.png" alt="" class="content__slider-img">
+                                <div class="content__slider-name">
+                                    <h3 class="content__slider-heading">Thành phần</h3>
+                                    <p class="content__slider-description">Cước</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item content__slider-item">
+                            <a href=""><img src="./assets/imgs/location/location3.png" alt="" class="content__slider-img">
+                                <div class="content__slider-name">
+                                    <h3 class="content__slider-heading">Thành phần</h3>
+                                    <p class="content__slider-description">Cây</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item content__slider-item">
+                            <a href=""><img src="./assets/imgs/location/location4.png" alt="" class="content__slider-img">
+                                <div class="content__slider-name">
+                                    <h3 class="content__slider-heading">Thành phần</h3>
+                                    <p class="content__slider-description">Cây quấn</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item content__slider-item">
+                            <a href=""><img src="./assets/imgs/location/location5.png" alt="" class="content__slider-img">
+                                <div class="content__slider-name">
+                                    <h3 class="content__slider-heading">Thành phần</h3>
+                                    <p class="content__slider-description">Lọn con</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item content__slider-item">
+                            <a href=""><img src="./assets/imgs/location/location6.png" alt="" class="content__slider-img">
+                                <div class="content__slider-name">
+                                    <h3 class="content__slider-heading">Thành phần</h3>
+                                    <p class="content__slider-description">Bẹ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item content__slider-item">
+                            <a href=""><img src="./assets/imgs/location/location7.png" alt="" class="content__slider-img">
+                                <div class="content__slider-name">
+                                    <h3 class="content__slider-heading">Thành phần</h3>
+                                    <p class="content__slider-description">Rơm rạ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item content__slider-item">
+                            <a href=""><img src="./assets/imgs/location/location8.png" alt="" class="content__slider-img">
+                                <div class="content__slider-name">
+                                    <h3 class="content__slider-heading">Thành phần</h3>
+                                    <p class="content__slider-description">Sức khỏe</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Content Slider -->
+            </div>
+        </div>
+<!-- End: Location -->
+
+<!-- Start: Promotion -->
+        <div class="content__container">
+            <div class="content__promotion">
+                <p class="content-title">Công sức làm nên cây chổi</p>
+                <p class="content-description">Chổi đót</p>
+                <div class="content__slider">
+                    <div class="owl-carousel" id="promotion-slider">
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/promotion1.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/promotion2.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/promotion3.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- End: Promotion -->
+
+<!-- Start: Suggest -->
+        <div class="content__container">
+            <div class="content__suggest">
+                <p class="content-title">Gợi ý từ CHOI_CO_GIN</p>
+                <p class="content-description">Những mức giá bạn có thể tham khảo</p>
+                <div class="content__slider">
+                    <div class="owl-carousel" id="suggest-slider">
+                        
+                        <div class="item">
+                            <a href="" class="content__suggest-item-link"><img src="./assets/imgs/suggest/choi1.png" alt="" class="content__slider-img">
+                                <div class="content__suggest-item">
+                                    <p class="content__suggest-heading">Chổi 18</p>
+                                    <p class="content__suggest-description">Thích hợp dùng cho quét sơn,....</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="" class="content__suggest-item-link"><img src="./assets/imgs/suggest/choi2.png" alt="" class="content__slider-img">
+                                <div class="content__suggest-item">
+                                    <p class="content__suggest-heading">Chổi 20</p>
+                                    <p class="content__suggest-description">Thích hợp dùng quét sân vườn, quét hành lang.....</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="" class="content__suggest-item-link"><img src="./assets/imgs/suggest/choi3.png" alt="" class="content__slider-img">
+                                <div class="content__suggest-item">
+                                    <p class="content__suggest-heading">Chổi 22</p>
+                                    <p class="content__suggest-description">Thích hợp quét trong thời gian ngắn.....</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="" class="content__suggest-item-link"><img src="./assets/imgs/suggest/choi4.png" alt="" class="content__slider-img">
+                                <div class="content__suggest-item">
+                                    <p class="content__suggest-heading">Chổi 25</p>
+                                    <p class="content__suggest-description">Thích hợp trong quét nhà bép, nhà ngang.....</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="" class="content__suggest-item-link"><img src="./assets/imgs/suggest/choi5.png" alt="" class="content__slider-img">
+                                <div class="content__suggest-item">
+                                    <p class="content__suggest-heading">Chổi 30</p>
+                                    <p class="content__suggest-description">Chổi khá bền và dày dặn....</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="" class="content__suggest-item-link"><img src="./assets/imgs/suggest/choi6.png" alt="" class="content__slider-img">
+                                <div class="content__suggest-item">
+                                    <p class="content__suggest-heading">Chổi 35</p>
+                                    <p class="content__suggest-description">Chổi chắc chắn, dùng trong các công ty, trường học, cơ quan nhà nước,...</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="" class="content__suggest-item-link"><img src="./assets/imgs/suggest/choi7.png" alt="" class="content__slider-img">
+                                <div class="content__suggest-item">
+                                    <p class="content__suggest-heading">Chổi đặc</p>
+                                    <p class="content__suggest-description">Cực kì bền và chắc chắn, là sự lựa chọn không thể thiếu mỗi dịp tết.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- End: Suggest -->
+
+<!-- Start Explore -->
+        <div class="content__container">
+            <div class="content__explore">
+                <p class="content-title">Những thước phim đẹp</p>
+                <p class="content-description">Để mỗi lần quét nhà là mỗi lần ta cảm thấy thoải mái.</p>
+                <!-- Start: Explore Slider -->
+                <div class="explore__slider">   
+                    <div class="owl-carousel" id="explore-slider">
+                        <div class="item explore__slider-item">
+                            <a href=""><img src="./assets/imgs/explore/exp1.png" alt="" class="content__slider-img"></a>
+                            <div class="explore__slider-name"></div>
+                            <p class="explore__slider-description"></p>
+                        </div>
+                        <div class="item explore__slider-item">
+                            <a href=""><img src="./assets/imgs/explore/exp2.png" alt="" class="content__slider-img"></a>
+                            <div class="explore__slider-name"></div>
+                            <p class="explore__slider-description"></p>
+                        </div>
+                        <div class="item explore__slider-item">
+                            <a href=""><img src="./assets/imgs/explore/exp3.png" alt="" class="content__slider-img"></a>
+                            <div class="explore__slider-name"></div>
+                            <p class="explore__slider-description"></p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <!-- End: Explore Slider -->
+            </div>
+        </div>
+<!-- End Explore -->
+
+<!-- Start Tutorial -->
+        <div class="content__container">
+            <div class="content__tutorial">
+                <p class="content-title">Hướng dẫn sử dụng</p>
+                <p class="content-description">Tiện lợi, dễ dùng, sang trọng.</p>
+                <div class="content__slider">
+                    <div class="owl-carousel" id="tutorial-slider">
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/tutorial/choi5.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/tutorial/choi6.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/tutorial/choi7.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/tutorial/choi1.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/tutorial/choi2.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/tutorial/choi3.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                        <div class="item">
+                            <a href=""><img src="./assets/imgs/tutorial/choi4.png" alt="" class="content__promotion-img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- End Tutorial -->
+    </div>
+</div>
+<!-- End Main -->
+
+<!--Start: Download App  -->
+<div class="download__app">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="download__app-introduce">
+                    <div class="download__app-logo">
+                        <!-- <svg version="1.1" viewBox="0 0 244 50" class="download__app-logo-svg">
+                            <path pid="0" d="M10 10 L90 10 L30 90 L70 90"></path>
+                        </svg> -->
+
+                        <svg class="download__app-logo-svg" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                            <path d="M20 80 L80 80 L20 20 L80 20" stroke="black" stroke-width="10" fill="none"/>
+                          </svg>
+                    </div>
+                    <div class="download__app-content">
+                        <h2 class="download__app-content-heading">BEST SALER</h2>
+                        <p class="download__app-content-description">CHỔI ĐẶC hiện là loại được yêu thích nhất.</p>
+                    </div> 
+                    <div class="download__app-by-image">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="download__app-qrcode">
+                                    <img src="./assets/imgs/suggest/choi7.png" alt="" class="download__app-qrcode-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="download__app--app">
+                                    <a href="" class="download__app-by-store">
+                                    </a>
+                                    <a href="" class="download__app-by-store">
+                                    </a>
+                                    <a href="" class="download__app-by-store">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="download__app-picture">
+                    <img src="./assets/imgs/slider1.png" alt="" class="download__app-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End: Download App  -->
+
+<!-- Start: Footer -->
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2-4 col-md-6">
+                <svg class="svg-icon svg-fill" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                    <path d="M20 80 L80 80 L20 20 L80 20" stroke="black" stroke-width="10" fill="none"/>
+                  </svg>
+                <div class="contact-item">
+                    <i class="fas fa-comments-alt contact-icon"></i>
+                    <div class="contact__content">
+                        <p class="contact__content-title">Messenger</p>
+                        <a href="" class="contact__content-link"></a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-volume contact-icon"></i>
+                    <div class="contact__content">
+                        <p class="contact__content-title">Call center</p>
+                        <a href="" class="contact__content-link"></a>
+                        <a href="" class="contact__content-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2-4 col-md-6">
+                <div class="top-homstay">
+                    <p class="footer__content-heading">TOP SẢN PHẨM</p>
+                    <ul class="footer__content-list">
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Chổi 18</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Chổi 20</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Chổi 22</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Chổi 25</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Chổi 30</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Chổi 35</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">CHỔI ĐẶC</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4">
+                <div class="favorite-space">
+                    <p class="footer__content-heading">KHÔNG GIAN SỬ DỤNG</p>
+                    <ul class="footer__content-list">
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Nhà ở</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Căn hộ</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Trường học</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Công ty</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Studio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4">
+                <div class="about-me">
+                    <p class="footer__content-heading">VỀ CHÚNG TÔI</p>
+                    <ul class="footer__content-list">
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Blog</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Kế hoạch</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Định hướng</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Dịch vụ</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Chăm sóc khách hàng</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Cơ hội</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">Xu hướng</a></li>
+                        <li class="footer__content-item"><a href="" class="footer__content-link">All best</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2-4 col-md-4">
+                <div class="app-download">
+                    <p class="footer__content-heading">CHỔI ĐẶC</p>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="./assets/imgs/suggest/choi7.png" alt="" class="app-download-qrcode">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="social" style="text-align: center;">
+                <div >
+                    <div style="text-align: center;">
+                        <p class="footer__content-heading">FOLLOW US</p>
+                        <div class="social-network">
+                            <div>
+                                <a href=""><i class="fab fa-instagram social-icon"></i></a>
+                            </div>  
+                            <div>
+                                <a href=""><i class="fab fa-youtube social-icon"></i></a>
+                            </div>
+                            <div>
+                                <a href=""><i class="fab fa-facebook-f social-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="copyright">
+            <div class="container">
+                <p class="copyright-content">&copy;Thế giới chổi - chổi CO GIN</p>
+                <p class="copyright-content">Xóm 13, Đại An Đông 1, Hành Thuận, Nghĩa Hành, Quảng Ngãi</p>
+                <p class="copyright-content"></p>
+
+                <p class="author-copyright">copyright&copy; by <a href=""></a>THEGIOICHOI</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="move-on-top">
+        <div class="move-on-top__container">
+            <a href="#"><i class="fas fa-arrow-up move-on-top-btn"></i></a>
+        </div>
+    </div>
+</div>
+<!-- End: Footer -->
+
+<!--JS Slider -->
+<script src="./js/slider/jquery.min.js"></script>
+<script src="./js/slider/owl.carousel.js"></script>
+<script src="./js/slider/slider.js"></script>
+<!-- JS -->
+<script src="./js/main.js"></script>
+<script src="./js/validate.js"></script>
+
+</body>
+</html>
